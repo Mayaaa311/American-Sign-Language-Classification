@@ -1,0 +1,167 @@
+;filename;url;start_time;number_of_frames;width;height;label_proc;label_raw;label_notes;partition;signer;Label;start_l;end_l
+269;aslized/joseph_hill_1761;https://www.youtube.com/watch?v=ZMFCPi5Uip0;0:02:51.833000;6;1280;720;al;al;;train;1;a;1;4
+291;aslized/mj_bienvenu_7057;https://www.youtube.com/watch?v=hS4f1BZ6EcA;0:04:11.709000;7;1280;720;asl;asl;;train;3;a;1;3
+302;aslized/mj_bienvenu_7068;https://www.youtube.com/watch?v=hS4f1BZ6EcA;0:05:24.741000;7;1280;720;do;do;;train;3;d;1;4
+453;aslthat/joseph_wheeler_0589;https://www.youtube.com/watch?v=nj1v4-ZLfz4;0:00:00.540000;6;640;360;asl;asl;;train;16;a;1;4
+814;deafvideo_1/taylerade_1231;http://www.deafvideo.tv/666089;0:00:25.085000;8;640;360;jake;jake;;train;25;a;3;4
+858;deafvideo_1/taylerade_1275;http://www.deafvideo.tv/666089;0:05:53.895000;8;640;360;do;do;;train;25;d;1;5
+1042;deafvideo_1/wesley_arey_0913;http://www.deafvideo.tv/666129;0:04:32.060000;8;640;360;do;do;;train;27;d;1;5
+1044;deafvideo_1/wesley_arey_0915;http://www.deafvideo.tv/666129;0:04:41.990000;7;640;360;do;do;;train;27;d;1;2
+1188;deafvideo_2/dsport06_1618;http://www.deafvideo.tv/683683;0:02:17.930000;8;640;360;wa;wa;wa?;train;30;a;5;8
+1195;deafvideo_2/dsport06_1625;http://www.deafvideo.tv/683683;0:02:50.527000;6;640;360;laws;laws;;train;30;a;2;2
+1197;deafvideo_2/dsport06_1627;http://www.deafvideo.tv/683683;0:03:05.962000;7;640;360;but;but;;train;30;b;1;3
+1486;deafvideo_3/deafaynrand_4489;http://www.deafvideo.tv/768154;0:01:18.928000;8;640;360;sc;sc;;train;20;c;6;8
+1687;deafvideo_4/dsport06_4889;http://www.deafvideo.tv/793957;0:00:20.605000;6;640;360;nfc;nfc;;train;30;c;5;6
+1688;deafvideo_4/dsport06_4890;http://www.deafvideo.tv/793957;0:00:28.706000;8;640;360;era;era ;thum extension on the 'r'?;train;30;a;7;8
+1694;deafvideo_4/dsport06_4896;http://www.deafvideo.tv/793957;0:00:55.604000;8;640;360;saint;saint;;train;30;a;2;4
+1703;deafvideo_4/dsport06_4905;http://www.deafvideo.tv/793957;0:01:48.935000;6;640;360;nfc;nfc;;train;30;c;5;6
+1705;deafvideo_4/dsport06_4907;http://www.deafvideo.tv/793957;0:01:56.875000;6;640;360;nfc;nfc;;train;30;c;4;6
+1707;deafvideo_4/dsport06_4909;http://www.deafvideo.tv/793957;0:02:10.058000;6;640;360;atlan;atlan;;train;30;a;1;2
+1724;deafvideo_4/dsport06_4926;http://www.deafvideo.tv/793957;0:03:51.001000;8;640;360;cox;cox;;train;30;c;1;2
+1726;deafvideo_4/dsport06_4928;http://www.deafvideo.tv/793957;0:03:58.222000;8;640;360;saint;saint;;train;30;a;2;3
+1729;deafvideo_4/dsport06_4931;http://www.deafvideo.tv/793957;0:04:12.539000;6;640;360;cox;cox;;train;30;c;1;2
+1730;deafvideo_4/dsport06_4932;http://www.deafvideo.tv/793957;0:04:14.184000;7;640;360;all;all ;;train;30;a;1;3
+1746;deafvideo_4/dsport06_4948;http://www.deafvideo.tv/793957;0:05:59.870000;6;640;360;denv;denv;;train;30;d;1;3
+1800;deafvideo_4/mattref2005_5169;http://www.deafvideo.tv/805784;0:03:20.420000;6;640;360;iat;iat;iat?;train;37;a;2;3
+1830;deafvideo_4/mattref2005_5199;http://www.deafvideo.tv/805784;0:06:18.322000;8;640;360;wcw;wcw;;train;37;c;3;5
+1833;deafvideo_4/mattref2005_5202;http://www.deafvideo.tv/805784;0:06:33.162000;6;640;360;uaw;uaw;uaw?;train;37;a;2;4
+1834;deafvideo_4/mattref2005_5203;http://www.deafvideo.tv/805784;0:06:37.142000;7;640;360;wcw;wcw;;train;37;c;4;6
+1850;deafvideo_4/shebaby_4997;http://www.deafvideo.tv/803249;0:00:21.551000;7;640;360;rod;rod;;train;38;d;6;7
+1874;deafvideo_4/taylerade_5628;http://www.deafvideo.tv/806835;0:02:35.155000;8;640;360;did;did;;train;25;d;4;7
+1888;deafvideo_4/taylerade_5664;http://www.deafvideo.tv/806835;0:08:51.485000;8;640;360;uia;uia;uia?;train;25;a;8;8
+1896;deafvideo_5/archie_6981;http://www.deafvideo.tv/823102;0:00:13.975000;8;640;360;box;box;;train;29;b;1;5
+2182;misc_1/carol_padden_1908;Video is no longer available online;0:01:02.030000;7;720;480;ar;ar;ar?;train;45;a;1;4
+2185;misc_1/carol_padden_1911;Video is no longer available online;0:01:22.238000;8;720;480;asl;asl;;train;45;a;1;2
+2186;misc_1/carol_padden_1912;Video is no longer available online;0:01:34.238000;7;720;480;asl;asl;;train;45;a;1;2
+2248;misc_1/carol_padden_1974;Video is no longer available online;0:12:08.860000;6;720;480;bk;bk;;train;45;b;1;2
+2276;misc_1/carol_padden_2002;Video is no longer available online;0:15:48.450000;6;720;480;an;an;;train;45;a;1;2
+2286;misc_1/carol_padden_2012;Video is no longer available online;0:17:43.510000;7;720;480;by;by;;train;45;b;1;3
+2464;misc_1/carol_padden_2190;Video is no longer available online;0:34:08.056000;8;720;480;as;as;;train;45;a;1;3
+2687;misc_2/aidan_mack_3176;https://www.youtube.com/watch?v=KJ6a5DwagJY;0:01:45.740000;6;640;360;co;co;;train;48;c;1;2
+2694;misc_2/aidan_mack_3183;https://www.youtube.com/watch?v=KJ6a5DwagJY;0:02:50.210000;6;640;360;co;co;;train;48;c;1;4
+2697;misc_2/aidan_mack_3186;https://www.youtube.com/watch?v=KJ6a5DwagJY;0:03:38.320000;6;640;360;co;co;;train;48;c;1;4
+2707;misc_2/aidan_mack_3196;https://www.youtube.com/watch?v=KJ6a5DwagJY;0:05:17.086000;7;640;360;co;co;;train;48;c;1;4
+2712;misc_2/aidan_mack_3201;https://www.youtube.com/watch?v=KJ6a5DwagJY;0:05:58.326000;7;640;360;co;co;;train;48;c;1;4
+2769;misc_2/jehanne_mccullough_3898;https://www.youtube.com/watch?v=5U8c4kRY904;0:01:06.570000;8;480;360;md;md;;train;49;d;6;8
+2811;misc_2/marlon_kuntze_2473;Video is no longer available online;0:09:42.563000;6;320;240;do;do;do?;train;46;d;1;2
+2913;misc_2/marlon_kuntze_2575;Video is no longer available online;0:24:23.666000;8;320;240;co;co;;train;46;c;1;4
+2942;misc_2/marlon_kuntze_2604;Video is no longer available online;0:28:48.363000;6;320;240;co;co;;train;46;c;1;4
+2944;misc_2/marlon_kuntze_2606;Video is no longer available online;0:28:59.241000;7;320;240;co;co;;train;46;c;1;4
+2991;misc_2/marlon_kuntze_2653;Video is no longer available online;0:36:23.503000;8;320;240;at;at;;train;46;a;1;2
+3011;misc_2/marlon_kuntze_2673;Video is no longer available online;0:38:14.866000;7;320;240;oc;oc;;train;46;c;6;7
+3020;misc_2/marlon_kuntze_2682;Video is no longer available online;0:42:01.016000;6;320;240;do;do;;train;46;d;1;3
+3059;misc_2/marlon_kuntze_2721;Video is no longer available online;0:49:06.286000;6;320;240;asl;asl;;train;46;a;1;2
+3064;misc_2/marlon_kuntze_2726;Video is no longer available online;0:49:32.505000;7;320;240;do;do;;train;46;d;1;5
+3097;misc_2/ryan_commerson_4985;https://www.youtube.com/watch?v=xMZfPXJECjU;0:00:09.718000;6;640;360;ed;ed;;train;47;d;4;6
+3100;misc_2/ryan_commerson_4988;https://www.youtube.com/watch?v=xMZfPXJECjU;0:00:24.440000;8;640;360;ed;ed;;train;47;d;4;6
+3101;misc_2/ryan_commerson_4989;https://www.youtube.com/watch?v=xMZfPXJECjU;0:00:27.553000;5;640;360;ed;ed;;train;47;d;3;5
+3104;misc_2/ryan_commerson_4992;https://www.youtube.com/watch?v=xMZfPXJECjU;0:00:56.351000;7;640;360;ed;ed;;train;47;D;5;7
+3177;youtube_1/alexandria_wailes_1870;https://www.youtube.com/watch?v=RkOfKMz_XoM;0:07:10.455000;8;640;360;all;all;;train;51;a;1;3
+3194;youtube_1/alexandria_wailes_1887;https://www.youtube.com/watch?v=RkOfKMz_XoM;0:09:18.196000;4;640;360;do;do;;train;51;d;1;3
+3262;youtube_1/jackie_roth_2986;https://www.youtube.com/watch?v=1cvsDtNYNFw;0:00:40.275000;6;640;360;cn;cn;can?;train;55;c;1;2
+3277;youtube_1/jackie_roth_3001;https://www.youtube.com/watch?v=1cvsDtNYNFw;0:02:59.608000;7;640;360;do;do;;train;55;d;1;3
+3279;youtube_1/jackie_roth_3003;https://www.youtube.com/watch?v=1cvsDtNYNFw;0:03:05.771000;5;640;360;at;at;at?;train;55;a;1;2
+3297;youtube_1/jackie_roth_3021;https://www.youtube.com/watch?v=1cvsDtNYNFw;0:06:03.328000;7;640;360;fct;fct;;train;55;c;2;3
+3345;youtube_1/leah_katz-hernandez_2848;https://www.youtube.com/watch?v=NBB8A0hqAPQ;0:00:09.513000;8;480;360;cnn;cnn;;train;57;c;2;3
+3411;youtube_2/alex_abenchuchan_3354;https://www.youtube.com/watch?v=esvYAS9DNsY;0:01:41.306000;8;640;360;by;by;;train;50;b;1;2
+3476;youtube_2/alex_abenchuchan_3932;https://www.youtube.com/watch?v=1afZN63zab0;0:01:08.760000;6;640;360;be;be;;train;50;b;1;2
+3575;youtube_2/chickadee_3529;https://www.youtube.com/watch?v=32DzFVOz0qg;0:03:34.303000;7;640;360;dg;dg;dg?;train;53;d;1;2
+3633;youtube_2/tia_albert_3721;https://www.youtube.com/watch?v=b7GFqedkUl4;0:00:15.900000;8;640;360;sd;sd;;train;60;d;5;8
+3662;youtube_2/tia_albert_3750;https://www.youtube.com/watch?v=b7GFqedkUl4;0:03:37.721000;8;640;360;co;co;;train;60;c;1;4
+3715;youtube_2/tia_albert_3803;https://www.youtube.com/watch?v=b7GFqedkUl4;0:09:19.810000;8;640;360;all;all;;train;60;a;2;4
+3730;youtube_2/tia_albert_3818;https://www.youtube.com/watch?v=b7GFqedkUl4;0:10:34.263000;8;640;360;all;all;;train;60;a;1;2
+3823;youtube_3/alex_abenchuchan_4018;https://www.youtube.com/watch?v=1afZN63zab0;0:08:03.858000;7;640;360;do;do;;train;50;d;1;2
+3884;youtube_3/alex_abenchuchan_4089;https://www.youtube.com/watch?v=cPQt_IEkHB0;0:03:46.371000;7;640;360;id;id;;train;50;d;5;7
+3922;youtube_3/alex_abenchuchan_4127;https://www.youtube.com/watch?v=cPQt_IEkHB0;0:06:24.655000;8;640;360;did;did;;train;50;d;1;2
+4108;youtube_3/alex_abenchuchan_4313;https://www.youtube.com/watch?v=vFV4yd77Ecw;0:08:49.498000;6;640;360;do;do;;train;50;d;2;3
+4217;youtube_3/raymond_merritt_4716;https://www.youtube.com/watch?v=vZ1zcKuUiDc;0:00:56.135000;7;1280;720;cell;cell;;train;62;c;1;2
+4273;youtube_3/raymond_merritt_4774;https://www.youtube.com/watch?v=vZ1zcKuUiDc;0:05:54.500000;8;1280;720;cel;cel;;train;62;c;1;3
+4374;youtube_4/alex_abenchuchan_5403;https://www.youtube.com/watch?v=tBk9706KlLw;0:06:24.335000;4;1280;720;af;af;af?;train;50;a;1;2
+4412;youtube_4/alex_abenchuchan_5441;https://www.youtube.com/watch?v=tBk9706KlLw;0:08:50.980000;7;1280;720;as;as;;train;50;a;1;3
+4423;youtube_4/alex_abenchuchan_5452;https://www.youtube.com/watch?v=tBk9706KlLw;0:09:44.960000;6;1280;720;as;as;;train;50;a;1;2
+4428;youtube_4/alex_abenchuchan_5457;https://www.youtube.com/watch?v=tBk9706KlLw;0:10:18.220000;8;1280;720;as;as;;train;50;a;1;3
+4438;youtube_4/alex_abenchuchan_5467;https://www.youtube.com/watch?v=tBk9706KlLw;0:11:26.900000;8;1280;720;lid;lid;lid?;train;50;d;8;8
+4539;youtube_4/evelina_gaina_4869;https://www.youtube.com/watch?v=UT7sRULo8aM;0:05:09.000000;6;1280;720;als;als;;train;54;a;1;1
+4551;youtube_4/evelina_gaina_4881;https://www.youtube.com/watch?v=UT7sRULo8aM;0:06:52.380000;8;1280;720;als;als;;train;54;a;4;6
+4603;youtube_4/raymond_merritt_4811;https://www.youtube.com/watch?v=UT7sRULo8aM;0:00:19.350000;8;1280;720;als;als;;train;62;a;1;2
+4610;youtube_4/raymond_merritt_4818;https://www.youtube.com/watch?v=UT7sRULo8aM;0:00:43.370000;7;1280;720;als;als;;train;62;a;1;2
+4611;youtube_4/raymond_merritt_4819;https://www.youtube.com/watch?v=UT7sRULo8aM;0:00:46.005000;8;1280;720;als;als;;train;62;a;1;3
+4624;youtube_4/raymond_merritt_4832;https://www.youtube.com/watch?v=UT7sRULo8aM;0:02:03.400000;6;1280;720;als;als;;train;62;a;1;2
+4625;youtube_4/raymond_merritt_4833;https://www.youtube.com/watch?v=UT7sRULo8aM;0:02:06.225000;7;1280;720;stcl;stcl;;train;62;c;5;6
+4626;youtube_4/raymond_merritt_4834;https://www.youtube.com/watch?v=UT7sRULo8aM;0:02:08.380000;8;1280;720;cells;cells;;train;62;c;1;1
+4627;youtube_4/raymond_merritt_4835;https://www.youtube.com/watch?v=UT7sRULo8aM;0:02:09.210000;7;1280;720;als;als;;train;62;a;1;2
+4631;youtube_4/raymond_merritt_4839;https://www.youtube.com/watch?v=UT7sRULo8aM;0:02:24.365000;7;1280;720;als;als;;train;62;a;1;2
+4632;youtube_4/raymond_merritt_4841;https://www.youtube.com/watch?v=UT7sRULo8aM;0:02:47.775000;6;1280;720;als;als;;train;62;a;4;6
+4639;youtube_4/raymond_merritt_4848;https://www.youtube.com/watch?v=UT7sRULo8aM;0:03:30.980000;8;1280;720;tant;tant;tant?;train;62;a;2;2
+4674;youtube_4/tawny_holmes_5603;https://www.youtube.com/watch?v=0ttF9J-6Gjs;0:01:22.718000;8;640;360;ed;ed;;train;68;d;7;8
+4675;youtube_4/tawny_holmes_5604;https://www.youtube.com/watch?v=0ttF9J-6Gjs;0:01:24.720000;7;640;360;all;all;;train;68;a;2;4
+4677;youtube_4/tawny_holmes_5606;https://www.youtube.com/watch?v=0ttF9J-6Gjs;0:01:28.356000;7;640;360;ed;ed;;train;68;d;5;6
+4682;youtube_5/christine_sun_kim_5900;https://www.youtube.com/watch?v=2Euof4PnjDk;0:02:38.925000;4;1280;720;chip;chip;;train;69;c;1;1
+4753;youtube_5/ryan_lane_5874;https://www.youtube.com/watch?v=ZSk7Kc2vgK0;0:01:54.020000;7;1280;720;jan;jan ;;train;73;a;3;3
+4769;youtube_5/tawny_holmes_6166;https://www.youtube.com/watch?v=zpKzb1SBN3Y;0:00:53.590000;8;640;360;ed;ed;;train;68;d;7;8
+4770;youtube_5/tawny_holmes_6167;https://www.youtube.com/watch?v=zpKzb1SBN3Y;0:00:55.025000;8;640;360;are;are;;train;68;a;1;3
+4772;youtube_5/tawny_holmes_6169;https://www.youtube.com/watch?v=zpKzb1SBN3Y;0:01:26.021000;6;640;360;ed;ed;;train;68;d;5;6
+4774;youtube_5/tawny_holmes_6171;https://www.youtube.com/watch?v=zpKzb1SBN3Y;0:01:48.788000;6;640;360;are;are;;train;68;a;1;2
+4776;youtube_5/tawny_holmes_6173;https://www.youtube.com/watch?v=zpKzb1SBN3Y;0:01:56.050000;6;640;360;do;do;;train;68;d;2;4
+4780;youtube_5/tawny_holmes_6177;https://www.youtube.com/watch?v=zpKzb1SBN3Y;0:02:28.318000;8;640;360;ed;ed;;train;68;d;7;8
+4783;youtube_5/tawny_holmes_6180;https://www.youtube.com/watch?v=zpKzb1SBN3Y;0:02:36.998000;7;640;360;may;may;;train;68;a;6;6
+4792;youtube_5/tawny_holmes_6189;https://www.youtube.com/watch?v=zpKzb1SBN3Y;0:03:36.553000;7;640;360;ed;ed;;train;68;d;7;7
+4799;youtube_5/tawny_holmes_6196;https://www.youtube.com/watch?v=zpKzb1SBN3Y;0:04:00.908000;7;640;360;ed;ed;;train;68;d;6;7
+4814;youtube_5/tawny_holmes_6211;https://www.youtube.com/watch?v=zpKzb1SBN3Y;0:04:58.191000;5;640;360;ed;ed;;train;68;d;4;5
+4845;youtube_5/tawny_holmes_6242;https://www.youtube.com/watch?v=zpKzb1SBN3Y;0:08:31.145000;6;640;360;ed;ed;;train;68;d;6;6
+4871;youtube_6/marlee_matlin_6709;https://www.youtube.com/watch?v=pAvewviVwjY;0:03:32.325000;5;1280;720;do;do;;train;78;d;1;1
+5022;youtube_6/marlee_matlin_6863;https://www.youtube.com/watch?v=KrQmBKPCBMg;0:21:53.161000;6;1280;720;do;do;;train;78;d;1;4
+5149;youtube_6/tom_humphries_6617;https://www.youtube.com/watch?v=LojbwO4pdX8;0:04:59.370000;5;490;360;dit;dit;;train;80;d;2;4
+5151;youtube_6/tom_humphries_6619;https://www.youtube.com/watch?v=LojbwO4pdX8;0:05:02.745000;4;490;360;sc;sc;;train;80;c;1;1
+5174;youtube_6/tom_humphries_6642;https://www.youtube.com/watch?v=LojbwO4pdX8;0:08:28.186000;2;490;360;do;do;;train;80;d;1;1
+5188;youtube_6/tom_humphries_6656;https://www.youtube.com/watch?v=LojbwO4pdX8;0:09:29.380000;6;490;360;all;all;;train;80;a;1;1
+5205;youtube_6/tom_humphries_6673;https://www.youtube.com/watch?v=LojbwO4pdX8;0:11:15.810000;7;490;360;ck;ck;;train;80;c;1;3
+5213;youtube_6/tom_humphries_6681;https://www.youtube.com/watch?v=LojbwO4pdX8;0:12:04.540000;7;490;360;do;do;;train;80;d;1;2
+5294;aslized/felicia_williams_7027;https://www.youtube.com/watch?v=hS4f1BZ6EcA;0:00:28.357000;6;1280;720;all;all;;train;83;a;1;2
+5303;aslized/felicia_williams_7036;https://www.youtube.com/watch?v=hS4f1BZ6EcA;0:01:42.945000;8;1280;720;all;all;;train;83;a;2;3
+5305;aslized/felicia_williams_7038;https://www.youtube.com/watch?v=hS4f1BZ6EcA;0:01:57.158000;8;1280;720;all;all;;train;83;a;2;2
+5307;aslized/felicia_williams_7040;https://www.youtube.com/watch?v=hS4f1BZ6EcA;0:02:22.767000;6;1280;720;asl;asl;;train;83;a;1;1
+5407;deafvideo_4/zainab_5665;http://www.deafvideo.tv/806835;0:09:10.600000;6;640;360;are;are;;train;85;a;1;1
+5417;deafvideo_4/zainab_5679;http://www.deafvideo.tv/806835;0:13:03.610000;4;640;360;all;all;;train;85;a;1;1
+5695;deafvideo_3/damien23_3602;http://www.deafvideo.tv/761696;0:00:08.387000;6;640;360;do;do;;train;95;d;1;1
+5801;deafvideo_3/otismhill82_4621;http://www.deafvideo.tv/770057;0:05:25.519000;6;640;360;sb;sb;;train;99;b;6;6
+5833;deafvideo_3/yellowbirdie84_4676;http://www.deafvideo.tv/768615;0:01:53.758000;7;640;360;by;by;;train;101;b;2;4
+5936;deafvideo_5/scottnorby_6465;http://www.deafvideo.tv/815119;0:02:16.430000;8;640;360;all;all;;dev;105;a;1;1
+5976;youtube_1/catherine_mackinnon_2799;https://www.youtube.com/watch?v=7myi959asB0;0:04:24.139000;7;1280;720;kc;kc;;dev;107;c;4;5
+5979;youtube_1/catherine_mackinnon_2802;https://www.youtube.com/watch?v=7myi959asB0;0:04:45.022000;6;1280;720;fd;fd ;;dev;107;d;3;6
+5996;youtube_1/catherine_mackinnon_2819;https://www.youtube.com/watch?v=7myi959asB0;0:06:26.094000;8;1280;720;co;co;;dev;107;c;1;3
+6081;youtube_3/ben_bahan_4525;https://www.youtube.com/watch?v=7Y44OUbwthQ;0:01:05.733000;5;640;360;do;do;;dev;110;d;1;3
+6136;youtube_4/sean_berdy_5742;https://www.youtube.com/watch?v=2YLsJySoMLA;0:01:10.495000;5;1280;720;co;co;;dev;113;c;1;2
+6137;youtube_4/sean_berdy_5743;https://www.youtube.com/watch?v=2YLsJySoMLA;0:01:11.795000;7;1280;720;co;co;;dev;113;c;1;1
+6196;youtube_5/daniel_durant_5878;https://www.youtube.com/watch?v=20WRt_-Ls-k;0:02:38.745000;8;1280;720;dtv;dtv;;dev;116;d;1;3
+6197;youtube_5/daniel_durant_5879;https://www.youtube.com/watch?v=20WRt_-Ls-k;0:02:49.700000;7;1280;720;at;at;;dev;116;a;1;1
+6202;youtube_5/daniel_durant_5884;https://www.youtube.com/watch?v=20WRt_-Ls-k;0:03:33.010000;8;1280;720;all;all ; lexical;dev;116;a;1;1
+6204;youtube_5/daniel_durant_5886;https://www.youtube.com/watch?v=20WRt_-Ls-k;0:03:36.080000;6;1280;720;all;all ; lexical;dev;116;a;1;1
+6205;youtube_5/daniel_durant_5887;https://www.youtube.com/watch?v=20WRt_-Ls-k;0:03:41.565000;8;1280;720;asl;asl;;dev;116;a;1;3
+6229;youtube_5/jeffrey_spinale_6043;https://www.youtube.com/watch?v=LklvjsrdlUQ;0:01:50.728000;3;490;360;all;all;;dev;118;a;1;2
+6238;youtube_5/jeffrey_spinale_6052;https://www.youtube.com/watch?v=LklvjsrdlUQ;0:02:33.741000;7;490;360;apil;apil;;dev;118;a;1;1
+6269;youtube_5/sean_berdy_6084;https://www.youtube.com/watch?v=7zxm_g9xCho;0:01:03.990000;8;640;360;at;at;;dev;113;a;1;3
+6289;youtube_5/sean_berdy_6104;https://www.youtube.com/watch?v=7zxm_g9xCho;0:03:34.330000;4;640;360;all;all;;dev;113;a;1;1
+6304;youtube_5/sean_berdy_6119;https://www.youtube.com/watch?v=7zxm_g9xCho;0:04:38.970000;6;640;360;do;do;;dev;113;d;1;3
+6307;youtube_5/sean_berdy_6122;https://www.youtube.com/watch?v=7zxm_g9xCho;0:05:12.250000;8;640;360;fans;fans;fans?;dev;113;a;5;5
+6398;youtube_5/roberta_cordano_6132;https://www.youtube.com/watch?v=B7msla9Hkx0;0:00:41.845000;6;640;360;co;co;;dev;123;c;2;5
+6402;youtube_5/roberta_cordano_6136;https://www.youtube.com/watch?v=B7msla9Hkx0;0:00:54.958000;8;640;360;at;at;;test;123;a;1;3
+6415;youtube_5/roberta_cordano_6149;https://www.youtube.com/watch?v=B7msla9Hkx0;0:02:57.515000;6;640;360;do;do;;test;123;d;1;3
+6420;youtube_5/roberta_cordano_6154;https://www.youtube.com/watch?v=B7msla9Hkx0;0:03:40.230000;8;640;360;ck;ck;;test;123;c;1;3
+6432;youtube_6/roberta_cordano_6477;https://www.youtube.com/watch?v=J7_KIJaTARY;0:02:43.963000;8;1280;720;by;by;;test;123;b;1;4
+6435;youtube_6/roberta_cordano_6480;https://www.youtube.com/watch?v=J7_KIJaTARY;0:03:05.883000;7;1280;720;by;by;;test;123;b;1;3
+6661;deafvideo_3/kathyfans_3459;http://www.deafvideo.tv/758532;0:01:04.682000;7;640;360;at;at;;test;135;a;1;4
+6675;deafvideo_3/kathyfans_3473;http://www.deafvideo.tv/758532;0:02:16.262000;7;640;360;bo;bo;;test;135;b;2;5
+6689;deafvideo_3/kazio63_3504;http://www.deafvideo.tv/754823;0:00:27.944000;6;640;360;dv;dv;;test;136;d;1;3
+6690;deafvideo_3/kazio63_3505;http://www.deafvideo.tv/754823;0:00:35.395000;7;640;360;dv;dv;;test;136;d;1;3
+6692;deafvideo_3/kazio63_3507;http://www.deafvideo.tv/754823;0:00:49.279000;7;640;360;co;co;;test;136;c;1;3
+6693;deafvideo_3/kazio63_3508;http://www.deafvideo.tv/754823;0:00:56.794000;4;640;360;dv;dv;;test;136;d;1;2
+6866;youtube_1/joel_garcia_2863;https://www.youtube.com/watch?v=NBB8A0hqAPQ;0:02:53.365000;8;480;360;cnn;cnn;;test;145;c;1;3
+6915;youtube_2/nick_martin_3419;https://www.youtube.com/watch?v=slInADNlbVM;0:01:10.598000;8;540;360;cnn;cnn;cnn?;test;148;c;1;2
+6931;youtube_2/nick_martin_3435;https://www.youtube.com/watch?v=slInADNlbVM;0:03:34.153000;8;540;360;by;by;;test;148;b;1;4
+7041;youtube_5/david_o._reynolds_5819;https://www.youtube.com/watch?v=2MnvFrB5ljQ;0:01:34.461000;7;640;360;bi;bi;;test;153;b;1;3
+7067;youtube_5/keith_nolan_6011;https://www.youtube.com/watch?v=-kKdEYHDLrU;0:01:33.233000;6;640;352;co;co;;test;154;c;1;4
+7068;youtube_5/keith_nolan_6012;https://www.youtube.com/watch?v=-kKdEYHDLrU;0:01:41.673000;8;640;352;bill;bill;;test;154;b;1;3
+7188;deafvideo_4/floridaaahh_5724;http://www.deafvideo.tv/807899;0:07:13.050000;7;640;360;as;as;;test;158;a;1;3
+7189;deafvideo_4/floridaaahh_5725;http://www.deafvideo.tv/807899;0:07:13.625000;8;640;360;at;at;;test;158;a;1;4
+7270;misc_2/genie_gertz_2892;https://www.youtube.com/watch?v=32DIGH2l0Ek;0:02:59.276000;4;480;360;do;do;;test;159;d;1;1
