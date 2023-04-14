@@ -1,14 +1,16 @@
-from PIL import Image, ImageFilter
-import csv
 import os
-from os import listdir
+import csv
 import cv2
 import numpy as np
-from matplotlib import pyplot as plt
 import tensorflow as tf
+from os import listdir
+from PIL import Image, ImageFilter
+from matplotlib import pyplot as plt
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 def convert_image():
+    max_h = 0
+    max_w = 0
     dataset = "ChicagoFSWild-Frames"
     csvs = [['output_train.csv',"avg_train"],
             ['output_dev.csv',"avg_dev"],
@@ -43,6 +45,10 @@ def convert_image():
                     # Check if it is the first time of imread
                     if first:
                         Gaussian_sum = np.zeros(img.shape)
+                        if img.shape[0] > max_h:
+                            max_h = img.shape[0]
+                        if img.shape[1] > max_w:
+                            max_w = img.shape[1]
                         first = False
                     filtered = cv2.GaussianBlur(img, (5, 5), 0).astype(np.int8)
                     images.append(filtered)
@@ -59,6 +65,7 @@ def convert_image():
                 new_path = dir_path+"/"+fname[0]+"_"+fname[1]+'.png'
                 print(new_path)
                 cv2.imwrite(new_path,normalized_image)
+    return (max_h, max_w)
             # get avg and produce a new avg photo; named it and stored it in train folder
             # reference: https://leslietj.github.io/2020/06/28/How-to-Average-Images-Using-OpenCV/
             # avg_image = Gaussian_list[0]
@@ -74,6 +81,11 @@ def convert_image():
             #avg_image = cv2.imread(new_file_name)
             #plt.imshow(avg_image)
             #plt.show()
+
+def resize_image(max_h, max_w):
+    # Option 1: use padding to max_h and max_w
+    # Option 2: use resize method needs threshold
+    print(0)
 
 def model_train():
     # training model
@@ -118,7 +130,10 @@ def model_train():
 
 
 def main():
-    convert_image()
+    # convert a series of images to one
+    max_h, max_w = convert_image()
+    # convert images to have same size
+
 
 if __name__ == "__main__":
     main()
