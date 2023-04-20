@@ -41,7 +41,7 @@ class HandSignDataset(Dataset):
         filename = self.df.iloc[idx, self.df.columns.get_loc('filename')]
         filename_img = self.df.iloc[idx, self.df.columns.get_loc('filename')].replace('/','_')
         label = self.df.iloc[idx, self.df.columns.get_loc('Label')]
-        label = ord(label) - 97
+        label = ord(label.lower()) - 97
         label = torch.tensor(label).long()
         # if label != 'a' and label != 'b' and label != 'c' and label != 'd':
         #     print(label)

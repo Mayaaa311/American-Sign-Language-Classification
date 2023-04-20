@@ -74,7 +74,7 @@ if __name__ == "__main__":
     parser.add_argument('--num_epochs', type=int, default=10)
     parser.add_argument('--weight_decay', type=float, default=1e-3)
     parser.add_argument('--batch_size', type=int, default=32)
-    parser.add_argument("--model", type=str, default="resnet18")
+    parser.add_argument("--model", type=str, default="resnet18", choices=["resnet18", "network"])
 
     args = parser.parse_args()
     print(args)

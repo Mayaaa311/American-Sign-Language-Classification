@@ -21,7 +21,7 @@ def train(model, trainloader, valloader, testloader,num_epoch, device, optimizer
             label = label.to(device)
             optimizer.zero_grad()  
             pred = model(image)
-            # print("pred: ", pred.shape)
+            # print("pred: ", pred)
             # print("label: ", label.shape)
             loss = criterion(pred, label)  
             # print(loss)
