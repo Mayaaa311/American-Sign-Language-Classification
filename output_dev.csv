@@ -1,20 +1,41 @@
-,filename,url,start_time,number_of_frames,width,height,label_proc,label_raw,label_notes,partition,signer,Label,start_l,end_l
-5936,deafvideo_5/scottnorby_6465,http://www.deafvideo.tv/815119,0:02:16.430000,8,640,360,all,all,,dev,105,a,1,1
-5976,youtube_1/catherine_mackinnon_2799,https://www.youtube.com/watch?v=7myi959asB0,0:04:24.139000,7,1280,720,kc,kc,,dev,107,c,4,5
-5979,youtube_1/catherine_mackinnon_2802,https://www.youtube.com/watch?v=7myi959asB0,0:04:45.022000,6,1280,720,fd,fd ,,dev,107,d,3,6
-5996,youtube_1/catherine_mackinnon_2819,https://www.youtube.com/watch?v=7myi959asB0,0:06:26.094000,8,1280,720,co,co,,dev,107,c,1,3
-6081,youtube_3/ben_bahan_4525,https://www.youtube.com/watch?v=7Y44OUbwthQ,0:01:05.733000,5,640,360,do,do,,dev,110,d,1,3
-6136,youtube_4/sean_berdy_5742,https://www.youtube.com/watch?v=2YLsJySoMLA,0:01:10.495000,5,1280,720,co,co,,dev,113,c,1,2
-6137,youtube_4/sean_berdy_5743,https://www.youtube.com/watch?v=2YLsJySoMLA,0:01:11.795000,7,1280,720,co,co,,dev,113,c,1,1
-6196,youtube_5/daniel_durant_5878,https://www.youtube.com/watch?v=20WRt_-Ls-k,0:02:38.745000,8,1280,720,dtv,dtv,,dev,116,d,1,3
-6197,youtube_5/daniel_durant_5879,https://www.youtube.com/watch?v=20WRt_-Ls-k,0:02:49.700000,7,1280,720,at,at,,dev,116,a,1,1
-6202,youtube_5/daniel_durant_5884,https://www.youtube.com/watch?v=20WRt_-Ls-k,0:03:33.010000,8,1280,720,all,all , lexical,dev,116,a,1,1
-6204,youtube_5/daniel_durant_5886,https://www.youtube.com/watch?v=20WRt_-Ls-k,0:03:36.080000,6,1280,720,all,all , lexical,dev,116,a,1,1
-6205,youtube_5/daniel_durant_5887,https://www.youtube.com/watch?v=20WRt_-Ls-k,0:03:41.565000,8,1280,720,asl,asl,,dev,116,a,1,3
-6229,youtube_5/jeffrey_spinale_6043,https://www.youtube.com/watch?v=LklvjsrdlUQ,0:01:50.728000,3,490,360,all,all,,dev,118,a,1,2
-6238,youtube_5/jeffrey_spinale_6052,https://www.youtube.com/watch?v=LklvjsrdlUQ,0:02:33.741000,7,490,360,apil,apil,,dev,118,a,1,1
-6269,youtube_5/sean_berdy_6084,https://www.youtube.com/watch?v=7zxm_g9xCho,0:01:03.990000,8,640,360,at,at,,dev,113,a,1,3
-6289,youtube_5/sean_berdy_6104,https://www.youtube.com/watch?v=7zxm_g9xCho,0:03:34.330000,4,640,360,all,all,,dev,113,a,1,1
-6304,youtube_5/sean_berdy_6119,https://www.youtube.com/watch?v=7zxm_g9xCho,0:04:38.970000,6,640,360,do,do,,dev,113,d,1,3
-6307,youtube_5/sean_berdy_6122,https://www.youtube.com/watch?v=7zxm_g9xCho,0:05:12.250000,8,640,360,fans,fans,fans?,dev,113,a,5,5
-6398,youtube_5/roberta_cordano_6132,https://www.youtube.com/watch?v=B7msla9Hkx0,0:00:41.845000,6,640,360,co,co,,dev,123,c,2,5
+,filename,url,start_time,number_of_frames,width,height,label_proc,label_raw,label_notes,partition,signer,Label
+5458,aslized/joy_maisel_6422,https://www.youtube.com/watch?v=OiPIiUid2ck,0:00:17.401000,14,640,360,asl,asl,,dev,0087,a
+5557,deafvideo_2/confederateboy_1673,Video is no longer available online,0:02:45.290000,14,640,360,la,la,,dev,0089,a
+5588,deafvideo_2/fairytales9_2285,http://www.deafvideo.tv/733495,0:02:32.910000,14,640,360,all,all,,dev,0091,a
+5590,deafvideo_2/fairytales9_2287,http://www.deafvideo.tv/733495,0:02:39.955000,13,640,360,ltway,ltway,ltway?,dev,0091,a
+5603,deafvideo_2/fairytales9_2300,http://www.deafvideo.tv/733495,0:03:50.036000,13,640,360,xray o,xray o,xray of?,dev,0091,a
+5634,deafvideo_2/sddsimple_1549,Video is no longer available online,0:00:52.500000,12,640,360,was,was,,dev,0093,a
+5643,deafvideo_2/sddsimple_1558,Video is no longer available online,0:02:15.770000,10,640,360,at,at,at?,dev,0093,a
+5810,deafvideo_3/titans_4695,http://www.deafvideo.tv/794491,0:00:37.696000,11,640,360,asl,asl,,dev,0100,a
+5811,deafvideo_3/titans_4696,http://www.deafvideo.tv/794491,0:00:44.970000,12,640,360,ak ok,ak ok,,dev,0100,a
+5813,deafvideo_3/titans_4698,http://www.deafvideo.tv/794491,0:00:49.014000,12,640,360,asl,asl,,dev,0100,a
+5789,deafvideo_3/otismhill82_4609,http://www.deafvideo.tv/770057,0:03:29.992000,11,640,360,sb,sb,,dev,0099,b
+5801,deafvideo_3/otismhill82_4621,http://www.deafvideo.tv/770057,0:05:25.519000,6,640,360,sb,sb,,dev,0099,b
+5833,deafvideo_3/yellowbirdie84_4676,http://www.deafvideo.tv/768615,0:01:53.758000,7,640,360,by,by,,dev,0101,b
+5966,youtube_1/catherine_mackinnon_2789,https://www.youtube.com/watch?v=7myi959asB0,0:02:48.293000,13,1280,720,nfb,nfb,,dev,0107,b
+6002,youtube_1/catherine_mackinnon_2825,https://www.youtube.com/watch?v=7myi959asB0,0:06:57.667000,15,1280,720,fb,fb,,dev,0107,b
+6024,youtube_1/melvin_patterson_2336,https://www.youtube.com/watch?v=Fx9mNDZ8DKE,0:00:06.443000,15,1280,720,feb,feb,,dev,0108,b
+6035,youtube_1/melvin_patterson_2347,https://www.youtube.com/watch?v=Fx9mNDZ8DKE,0:01:28.888000,9,1280,720,feb,feb,,dev,0108,b
+6219,youtube_5/debra_patkin_5790,https://www.youtube.com/watch?v=1b2xEWESZro&list=PL_ya42PSqaEvHkNF0UCL7iYBy_LzDHzeE&index=7,0:00:13.720000,13,640,360,bs,bs,,dev,0117,b
+6226,youtube_5/jeffrey_spinale_6040,https://www.youtube.com/watch?v=LklvjsrdlUQ,0:01:12.201000,15,490,360,lgbt,lgbt,,dev,0118,b
+6303,youtube_5/sean_berdy_6118,https://www.youtube.com/watch?v=7zxm_g9xCho,0:04:37.255000,15,640,360,but,but,,dev,0113,b
+5546,deafvideo_2/confederateboy_1662,Video is no longer available online,0:00:46.275000,11,640,360,sc,sc,sc?,dev,0089,c
+5626,deafvideo_2/goatman_1541,http://www.deafvideo.tv/439338,0:02:29.690000,12,640,360,sc,sc,,dev,0092,c
+5709,deafvideo_3/deafgoldenhair_3067,http://www.deafvideo.tv/743470,0:01:05.910000,10,640,360,pcs,pcs,pcs?,dev,0096,c
+5776,deafvideo_3/otismhill82_4596,http://www.deafvideo.tv/770057,0:00:29.813000,15,640,360,com,com,,dev,0099,c
+5929,deafvideo_5/scottnorby_6458,http://www.deafvideo.tv/815119,0:01:17.972000,14,640,360,sock,sock,sock?,dev,0105,c
+5976,youtube_1/catherine_mackinnon_2799,https://www.youtube.com/watch?v=7myi959asB0,0:04:24.139000,7,1280,720,kc,kc,,dev,0107,c
+5987,youtube_1/catherine_mackinnon_2810,https://www.youtube.com/watch?v=7myi959asB0,0:05:39.964000,15,1280,720,crw,crw,the c and the r appear to have been combined,dev,0107,c
+5996,youtube_1/catherine_mackinnon_2819,https://www.youtube.com/watch?v=7myi959asB0,0:06:26.094000,8,1280,720,co,co,,dev,0107,c
+5999,youtube_1/catherine_mackinnon_2822,https://www.youtube.com/watch?v=7myi959asB0,0:06:38.981000,9,1280,720,ufc,ufc,,dev,0107,c
+6001,youtube_1/catherine_mackinnon_2824,https://www.youtube.com/watch?v=7myi959asB0,0:06:50.827000,9,1280,720,cot,cot,,dev,0107,c
+5531,aslized/suzanne_stecker_0274,https://www.youtube.com/watch?v=3m2PIS0Asxg,0:04:03.491000,13,1920,1080,do,do,,dev,0088,d
+5695,deafvideo_3/damien23_3602,http://www.deafvideo.tv/761696,0:00:08.387000,6,640,360,do,do,,dev,0095,d
+5736,deafvideo_3/fieldstreamasl_4043,http://www.deafvideo.tv/765401,0:01:06.812000,13,640,360,do,do,,dev,0097,d
+5747,deafvideo_3/geoalpha_4551,http://www.deafvideo.tv/792678,0:01:22.689000,10,640,360,do,do,,dev,0098,d
+5799,deafvideo_3/otismhill82_4619,http://www.deafvideo.tv/770057,0:05:03.440000,12,640,360,dvtv,dvtv,,dev,0099,d
+5900,deafvideo_5/morningstar_6249,http://www.deafvideo.tv/811530,0:00:36.371000,9,640,360,del,del,,dev,0104,d
+5904,deafvideo_5/morningstar_6253,http://www.deafvideo.tv/811530,0:01:02.508000,14,640,360,dvtv,dvtv,,dev,0104,d
+5911,deafvideo_5/morningstar_6260,http://www.deafvideo.tv/811530,0:01:38.310000,11,640,360,dvt,dvt,,dev,0104,d
+5979,youtube_1/catherine_mackinnon_2802,https://www.youtube.com/watch?v=7myi959asB0,0:04:45.022000,6,1280,720,fd,fd ,,dev,0107,d
+6051,youtube_1/shoshannah_stern_2371,https://www.youtube.com/watch?v=8HASCDzWct4,0:00:13.685000,13,1280,720,door,door,,dev,0109,d
