@@ -12,8 +12,8 @@ def data_argumentation(directory):
         hflip= iaa.Fliplr(p=1.0)
         input_hf= hflip.augment_image(input_img)
         new_file_name_flip = f.replace(".png", "_flip.png")
-        #Rotation
         imageio.imwrite(new_file_name_flip, input_hf)
+        #Rotation
         rot1 = iaa.Affine(rotate=(-50,20))
         input_rot1 = rot1.augment_image(input_img)
         new_file_name_rot = f.replace(".png", "_rot.png")
