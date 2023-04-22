@@ -55,8 +55,13 @@ class HandSignDataset(Dataset):
             x0, y0, x1, y1, _ = bbox_info
             x0, y0, x1, y1 = int(x0), int(y0), int(x1), int(y1)
 
-            image = Image.open(image_path).convert('RGB')
+            image = Image.open(image_path).convert('L')
             image = image.crop((x0, y0, x1, y1))
+
+            # Convert the image to a numpy array
+            image = np.array(image)
+            # Normalize the values between 0 and 1
+            image = image.astype('float32') / 255.0
         except FileNotFoundError:
             image = Image.open(image_path).convert('RGB')
         if(np.sum(image)==0):
