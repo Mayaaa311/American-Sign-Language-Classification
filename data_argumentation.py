@@ -36,13 +36,17 @@ def flip_and_Rotation(directory):
             if row[10] == "train":
                 new_row_flip = row.copy()
                 new_row_flip[1] = new_row_flip[1]+"_flip"
+                #new_row_flip = ';'.join(new_row_flip)
+                #print(new_row_flip)
                 new_rows.append(new_row_flip)
                 new_row_rot = row.copy()
                 new_row_rot[1] = new_row_rot[1]+"_rot"
+                #new_row_rot = ';'.join(new_row_rot)
                 new_rows.append(new_row_rot)
 
+    #print(new_rows)
     with open('output.csv', 'a', newline='') as csvfile:
-        writer = csv.writer(csvfile)
+        writer = csv.writer(csvfile, delimiter =";")
         for row in new_rows:
             writer.writerow(row)
         csvfile.close()
