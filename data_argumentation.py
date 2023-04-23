@@ -15,7 +15,8 @@ def flip_and_Rotation(directory):
         check_flip_name = filename.replace(".png", "_flip.png")
         check_rot_name = filename.replace(".png", "_rot.png")
         if ((check_flip_name not in file_list) and ("flip" not in filename) and 
-            (check_rot_name not in file_list) and ("rot" not in filename) and ("edge" not in filename)):
+            (check_rot_name not in file_list) and ("rot" not in filename) and 
+            ("edge" not in filename) and ("thresh_mean" not in filename) and ("thresh_gaussian" not in filename)):
             IsGenerate = True
             f = os.path.join(directory, filename)
             input_img = imageio.imread(f)
@@ -33,6 +34,7 @@ def flip_and_Rotation(directory):
     # Write to output.csv
     if IsGenerate:
         new_rows = []
+        old_rows = []
         with open('output.csv', newline='') as input_file:
             reader = csv.reader(input_file)
             column_name = next(reader)
@@ -41,6 +43,7 @@ def flip_and_Rotation(directory):
                 if start_line > 167:
                     break
                 row = row[0].split(';')
+                old_rows.append(row)
                 if row[10] == "train":
                     new_row_flip = row.copy()
                     new_row_flip[1] = new_row_flip[1]+"_flip"
@@ -50,13 +53,56 @@ def flip_and_Rotation(directory):
                     new_rows.append(new_row_rot)
                 start_line += 1
 
-        #print(new_rows)
-        with open('output.csv', 'a', newline='') as csvfile:
+        with open('output_flip_rotation.csv', 'w+', newline='') as csvfile:
             writer = csv.writer(csvfile, delimiter =";")
+            for row in old_rows:
+                writer.writerow(row)
             for row in new_rows:
                 writer.writerow(row)
             csvfile.close()
 
+def edge_detection(directory):
+    # reference: https://docs.opencv.org/3.4/da/d5c/tutorial_canny_detector.html
+    file_list = os.listdir(directory)
+    IsGenerate = False
+    for filename in file_list:
+        check_edge_name = filename.replace(".png", "_edge.png")
+        if ((check_edge_name not in file_list) and ("edge" not in filename) and 
+            ("flip" not in filename) and ("rot" not in filename) and 
+            ("thresh_mean" not in filename) and ("thresh_gaussian" not in filename)):
+            IsGenerate = True
+            f = os.path.join(directory, filename)
+            input_img = cv2.imread(f, 0)
+            edges = cv2.Canny(input_img, 100, 200)
+            new_file_name_edge = f.replace(".png", "_edge.png")
+            cv2.imwrite(new_file_name_edge, edges)
+
+    # Write to output.csv
+    if IsGenerate:
+        new_rows = []
+        old_rows = []
+        with open('output.csv', newline='') as input_file:
+            reader = csv.reader(input_file)
+            column_name = next(reader)
+            start_line = 2
+            for row in reader:
+                if start_line > 167:
+                    break
+                row = row[0].split(';')
+                old_rows.append(row)
+                if row[10] == "train":
+                    new_row_edge = row.copy()
+                    new_row_edge[1] = new_row_edge[1]+"_edge"
+                    new_rows.append(new_row_edge)
+                start_line += 1
+
+        with open('output.csv', 'a', newline='') as csvfile:
+            writer = csv.writer(csvfile, delimiter =";")
+            for row in old_rows:
+                writer.writerow(row)
+            for row in new_rows:
+                writer.writerow(row)
+            csvfile.close()
 
 def adaptive_threshold(directory):
     # reference: https://www.geeksforgeeks.org/python-thresholding-techniques-using-opencv-set-2-adaptive-thresholding/
@@ -84,6 +130,7 @@ def adaptive_threshold(directory):
     # Write to output.csv
     if IsGenerate:
         new_rows = []
+        old_rows = []
         with open('output.csv', newline='') as input_file:
             reader = csv.reader(input_file)
             column_name = next(reader)
@@ -92,6 +139,7 @@ def adaptive_threshold(directory):
                 if start_line > 167:
                     break
                 row = row[0].split(';')
+                old_rows.append(row)
                 if row[10] == "train":
                     new_row_flip = row.copy()
                     new_row_flip[1] = new_row_flip[1]+"_thresh_mean"
@@ -101,9 +149,10 @@ def adaptive_threshold(directory):
                     new_rows.append(new_row_rot)
                 start_line += 1
 
-        #print(new_rows)
         with open('output.csv', 'a', newline='') as csvfile:
             writer = csv.writer(csvfile, delimiter =";")
+            for row in old_rows:
+                writer.writerow(row)
             for row in new_rows:
                 writer.writerow(row)
             csvfile.close()
