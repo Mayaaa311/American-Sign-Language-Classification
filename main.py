@@ -22,9 +22,11 @@ def prepare_dataset(args):
     ])
 
     # Call the create_dataset function to create a PyTorch dataset
-    test_dataset = HandSignDataset(csv_file='output.csv', root_dir='avg_test', partition='test',transform=transform)
-    train_dataset = HandSignDataset(csv_file='output.csv', root_dir='avg_train', partition='train',transform=transform)
-    val_dataset = HandSignDataset(csv_file='output.csv', root_dir='avg_dev', partition='dev',transform=transform)
+    print(args.data_augmentation)
+    file_name = 'output_{}.csv'.format(args.data_augmentation)
+    test_dataset = HandSignDataset(csv_file=file_name, root_dir='avg_test', partition='test',transform=transform)
+    train_dataset = HandSignDataset(csv_file=file_name, root_dir='avg_train', partition='train',transform=transform)
+    val_dataset = HandSignDataset(csv_file=file_name, root_dir='avg_dev', partition='dev',transform=transform)
     return train_dataset, val_dataset, test_dataset
 
 def get_model(args):
@@ -47,7 +49,7 @@ def run_exp(args):
     valloader = torch.utils.data.DataLoader(val_dataset, batch_size=args.batch_size, shuffle=False)
     # Training Setup 
     model = get_model(args).to(device)
-    optimizer = optim.Adam(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
+    optimizer = optim.SGD(model.parameters(), lr=args.lr, weight_decay=args.weight_decay, momentum=0.9)
     criterion = torch.nn.CrossEntropyLoss()
 
 
@@ -75,6 +77,7 @@ if __name__ == "__main__":
     parser.add_argument('--weight_decay', type=float, default=1e-3)
     parser.add_argument('--batch_size', type=int, default=32)
     parser.add_argument("--model", type=str, default="resnet18", choices=["resnet18", "network"])
+    parser.add_argument("--data_augmentation",type=str,default="edge",choices=["flip_rotation", "edge", "threshold"])
 
     args = parser.parse_args()
     print(args)
