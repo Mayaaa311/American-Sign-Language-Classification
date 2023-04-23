@@ -7,7 +7,7 @@ import csv
 import cv2 
 import numpy as np 
 
-def flip_and_Rotation(directory):
+def flip_and_rotation(directory):
     # reference: https://www.analyticsvidhya.com/blog/2022/04/image-augmentation-using-3-python-libraries/
     file_list = os.listdir(directory)
     IsGenerate = False
@@ -109,12 +109,12 @@ def adaptive_threshold(directory):
             csvfile.close()
 
     
-  
+def edge_detection(diretory):
+    print("current not implemented")
 
 def main():
     # generate flipped and rotated images
-    flip_and_Rotation("avg_train")
-    adaptive_threshold("avg_train")
+    print("generating data_augmentation method...")
 
 if __name__ == "__main__":
     main()
