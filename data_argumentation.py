@@ -35,6 +35,7 @@ def flip_and_rotation(directory):
     if IsGenerate:
         new_rows = []
         old_rows = []
+        column_name = None
         with open('output.csv', newline='') as input_file:
             reader = csv.reader(input_file)
             column_name = next(reader)
@@ -55,6 +56,7 @@ def flip_and_rotation(directory):
 
         with open('output_flip_rotation.csv', 'w+', newline='') as csvfile:
             writer = csv.writer(csvfile, delimiter =";")
+            writer.writerow(column_name)
             for row in old_rows:
                 writer.writerow(row)
             for row in new_rows:
@@ -81,6 +83,7 @@ def edge_detection(directory):
     if IsGenerate:
         new_rows = []
         old_rows = []
+        column_name = None
         with open('output.csv', newline='') as input_file:
             reader = csv.reader(input_file)
             column_name = next(reader)
@@ -96,8 +99,9 @@ def edge_detection(directory):
                     new_rows.append(new_row_edge)
                 start_line += 1
 
-        with open('output.csv', 'a', newline='') as csvfile:
+        with open('output_edge.csv', 'w+', newline='') as csvfile:
             writer = csv.writer(csvfile, delimiter =";")
+            writer.writerow(column_name)
             for row in old_rows:
                 writer.writerow(row)
             for row in new_rows:
@@ -131,6 +135,7 @@ def adaptive_threshold(directory):
     if IsGenerate:
         new_rows = []
         old_rows = []
+        column_name = None
         with open('output.csv', newline='') as input_file:
             reader = csv.reader(input_file)
             column_name = next(reader)
@@ -149,21 +154,22 @@ def adaptive_threshold(directory):
                     new_rows.append(new_row_rot)
                 start_line += 1
 
-        with open('output.csv', 'a', newline='') as csvfile:
+        with open('output_threshold.csv', 'w+', newline='') as csvfile:
             writer = csv.writer(csvfile, delimiter =";")
+            writer.writerow(column_name)
             for row in old_rows:
                 writer.writerow(row)
             for row in new_rows:
                 writer.writerow(row)
             csvfile.close()
 
-    
-def edge_detection(diretory):
-    print("current not implemented")
 
 def main():
     # generate flipped and rotated images
     print("generating data_augmentation method...")
+    flip_and_rotation("avg_train")
+    edge_detection("avg_train")
+    adaptive_threshold("avg_train")
 
 if __name__ == "__main__":
     main()
