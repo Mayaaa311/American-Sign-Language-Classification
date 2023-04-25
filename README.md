@@ -1,9 +1,19 @@
-# Instructions on Running the Model 
+# Instructions on Running the Model
 
-Please enter 
+Please enter
 
 ```
-python main.py 
+python data_argumentation.py
 ```
 
-for default hyparameter setting. Specify argument for desired hyperparameter. 
+for generating data argumentation images
+
+Please enter
+
+```
+python main.py
+```
+
+for model training
+
+for default hyparameter setting. Specify argument for desired hyperparameter.
